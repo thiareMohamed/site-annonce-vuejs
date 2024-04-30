@@ -1,13 +1,13 @@
 <template>
   <div>
     <Header />
-    <Home />
+    <router-view />
     <Footer />
   </div>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+// import Home from './components/Home.vue'
 import Header from './layouts/Header.vue'
 import Footer from './layouts/Footer.vue'
 
@@ -15,7 +15,7 @@ export default {
   name: 'App',
   components: {
     Header,
-    Home,
+    // Home,
     Footer
   }
 }
